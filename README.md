@@ -45,7 +45,7 @@ Alternatively, if you only want to run Step 3, we have uploaded the files `denma
 
 # Import Generator
 
-To skip all the previous steps, you can simply import this pre-trained generator and immediately create synthetic vessel trajectories.
+To skip all the previous steps, you can simply import this pre-trained generator, that can be found [here](https://github.com/nina-verbeeke-tue/mostlyai-synthetic-vessel-trajectories/tree/main/generator), and immediately create synthetic vessel trajectories.
 
 
 ```python
@@ -56,7 +56,7 @@ import pandas as pd
 mostly = MostlyAI(local=True)
 
 # Import the pre-trained generator
-g = mostly.generators.import_from_file("generator/1903-denmark-generator.zip")
+g = mostly.generators.import_from_file("1903-denmark-generator.zip")
 
 # Generate synthetic samples
 samples = mostly.probe(g, size=1000)
