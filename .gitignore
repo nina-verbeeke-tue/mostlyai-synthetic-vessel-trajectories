@@ -1,0 +1,4 @@
+input_data/*
+
+!input_data/denmark_positions_downsampled.csv
+!input_data/denmark_trips_downsampled.csv
