@@ -21,10 +21,10 @@ We perform the following three steps:
 
 <br />
 
-In Step 3, a Generator is created and exported as a ZIP file to the `generator` folder. 
-The results of the synthetic vessel trajectory generation are stored in the `synthetic_data` folder.
+After running Step 3, it produces the following two outputs:
 
-The final results of the synthetic data generation and the creation of synthetic vessel trajectories can be found in the file located in the `synthetic_data` folder. This file can, for example, be imported into [kepler.gl](https://kepler.gl/) for visualizing the results.
+* **Generator**: In Step 3, a Generator is created and exported as a ZIP file to the `generator` folder, that can be found [here](https://github.com/nina-verbeeke-tue/mostlyai-synthetic-vessel-trajectories/tree/main/generator). 
+* **Synthetic data**: The results of the synthetic vessel trajectory generation are stored in the `synthetic_data` folder, that can be found [here](https://github.com/nina-verbeeke-tue/mostlyai-synthetic-vessel-trajectories/tree/main/synthetic_data). This file can, for example, be imported into [kepler.gl](https://kepler.gl/) for visualizing the results.
 
 <br />
 
