@@ -24,9 +24,11 @@ We perform the following three steps:
 In Step 3, a Generator is created and exported as a ZIP file to the `generator` folder. 
 The results of the synthetic vessel trajectory generation are stored in the `synthetic_data` folder.
 
+The final results of the synthetic data generation and the creation of synthetic vessel trajectories can be found in the file located in the `synthetic_data` folder. This file can, for example, be imported into [kepler.gl](https://kepler.gl/) for visualizing the results.
+
 <br />
 
-# Dataset
+# Input Dataset
 
 This repository uses AIS data from Danish waters, obtained from:  _Olesen et al. (2023). AIS Trajectories from Danish Waters for Abnormal Behavior Detection. Technical University of Denmark._  The dataset is available [here](https://data.dtu.dk/collections/AIS_Trajectories_from_Danish_Waters_for_Abnormal_Behavior_Detection/6287841).
 
