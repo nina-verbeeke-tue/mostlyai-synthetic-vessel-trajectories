@@ -1,5 +1,18 @@
 # Synthetic Data Vessel Trajectories using MOSTLY AI
 
+This repository provides instructions for training your own synthetic vessel trajectory generator. However, if you prefer to skip the training process, you can import the pre-trained generator instead. The pre-trained generator is available [here](https://github.com/nina-verbeeke-tue/mostlyai-synthetic-vessel-trajectories/tree/main/generator), allowing you to directly create synthetic vessel trajectories. 
+
+You can find the code to import the pre-trained generator and generate synthetic data [here](https://github.com/nina-verbeeke-tue/mostlyai-synthetic-vessel-trajectories/blob/main/notebooks/example/importing_pretrained_mostlyai_generator.ipynb), or click the button below to open it in Google Colab.
+
+<a target="_blank" href="https://colab.research.google.com/github/nina-verbeeke-tue/mostlyai-synthetic-vessel-trajectories/blob/main/notebooks/example/importing_pretrained_mostlyai_generator.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+<br />
+
+
+# Create a generator
+
 We use the Synthetic Data SDK Python toolkit provided by [MOSTLY AI](https://github.com/mostly-ai/mostlyai) to locally trains and generates synthetic data locally on your own compute resources.
 
 The Synthetic Data SDK allows us to create:
